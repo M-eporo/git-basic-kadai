@@ -1,0 +1,16 @@
+ git add hello_world.txt
+
+git commit -m "hello_world.txtを追加"
+[main (root-commit) fd27366] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+git add hello_world.txt
+
+git commit -m "日本語訳を追記"
+[main 04b587a] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+git log --oneline
+04b587a (HEAD -> main) 日本語訳を追記
+fd27366 hello_world.txtを追加
